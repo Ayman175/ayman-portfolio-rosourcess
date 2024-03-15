@@ -1,0 +1,239 @@
+/* common shared styles */
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header {
+    background-color: #FFF8F3;
+}
+
+/* navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 190px;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    height: 53px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 35px;
+}
+
+/* banner styles */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    padding: 50px 70px 0px 190px;
+    justify-content: space-between;
+}
+
+.content-container {
+    max-width: 500px;
+}
+
+.banner-getting {
+    color: #181818;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+
+
+section {
+    margin-top: 130px;
+}
+
+.about {
+    background-color: #FFF8F3;
+    padding: 150px;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* info-container styles */
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    color: #474747);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* what-i-do syles */
+
+.what-i-do-content {
+    padding: 40px 150px;
+    text-align: center;
+}
+
+.what-i-do-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.what-i-do-description {
+    color: #757575;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+/* skill-container styles */
+
+.skill-container {
+    display: flex;
+    gap: 50px;
+}
+
+skill-info {
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 5px 6px 15px 10px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+skill-info img {
+    width: 17%;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* Resume summary styles */
+
+.resume-container {
+    text-align: center;
+}
+
+.resume-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 115px;
+
+}
+
+.resume-column-container {
+    display: flex;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item .title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item .sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item .description {
+    color: #757575;
+}
+
+.resume-column hr {
+    margin-right: 10px;
+}
