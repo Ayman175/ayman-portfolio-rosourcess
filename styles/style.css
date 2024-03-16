@@ -207,6 +207,7 @@ skill-info img {
 .resume-container {
     text-align: center;
 }
+    
 
 .resume-title {
     color: #181818;
@@ -218,8 +219,10 @@ skill-info img {
 
 .resume-column-container {
     display: flex;
+    text-align: start;
     gap: 50px;
 }
+
 
 .resume-column-title {
     color: #474747;
