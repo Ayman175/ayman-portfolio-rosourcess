@@ -61,6 +61,14 @@ nav li a {
     border: none;
     padding: 15px 35px;
 }
+#call-btn {
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
 
 /* banner styles */
 
@@ -210,12 +218,14 @@ skill-info img {
 
 .resume-column-container {
     display: flex;
+    gap: 50px;
 }
 
 .resume-column-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .resume-item .title {
@@ -228,6 +238,8 @@ skill-info img {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 10px;
+        margin-bottom: 20px;
 }
 
 .resume-item .description {
@@ -236,4 +248,52 @@ skill-info img {
 
 .resume-column hr {
     margin-right: 10px;
+    margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .resume-btn {
+        margin-top: 60px;
+    }
+    
+    /* footer styles */
+    
+    .footer-container {
+        background-color: #FFF8F3;
+        display: flex;
+        gap: 117px;
+        padding: 130px 230px;
+    }
+    
+    .icon img {
+        width: 3%;
+        margin-right: 24px;
+    }
+    
+    .contact-container {
+        width: 50%;
+    }
+    
+    .contact-title {
+        color: #181818;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    .contact-description {
+        color: #474747;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .contact-message input[type="text"],
+    input[type="email"],
+    textarea {
+        background: #FFF;
+        display: block;
+        margin-bottom: 24px;
+        border-radius: 5px;
+        padding: 18px 35px;
+        border: 0;
+        width: 100%;
 }
